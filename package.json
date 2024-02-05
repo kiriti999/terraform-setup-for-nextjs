@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "destroy": "cd terraform && terraform destroy",
+    "destroy": "cd terraform && terraform destroy && cd ..",
     "deploy": "sh deploy.sh"
   },
   "author": "",
