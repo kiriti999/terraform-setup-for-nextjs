@@ -1,0 +1,12 @@
+{
+  "name": "common-terraform-whatsnxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "destroy": "cd terraform && terraform destroy",
+    "deploy": "sh deploy.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
